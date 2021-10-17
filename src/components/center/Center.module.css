@@ -1,0 +1,24 @@
+.mainBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1110px;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.tempBlock {
+
+    font-size: 6.0em;
+    font-weight: 100;
+    line-height: 1.3em;
+
+    display: flex;
+    align-items: center;
+}
+
+.tempBlock object {
+    filter: invert(1);
+}

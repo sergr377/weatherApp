@@ -1,0 +1,43 @@
+.footerBlock {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    width: 100%;
+    padding-bottom: 5%;
+    flex-wrap: wrap;
+}
+
+.footerBlock div {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomText {
+    color: white;
+    font-size: 28px;
+}
+
+.headerText {
+    margin-top: 20px;
+    color: white;
+    opacity: 0.6;
+    font-size: 28px;
+}
+
+.infoBlock {
+    width: 25%;
+}
+
+@media (max-width: 1110px) {
+
+    .bottomText {
+        font-size: 14px;
+    }
+
+    .headerText {
+        font-size: 14px;
+    }
+    .infoBlock {
+        width: 50%;
+    }
+}

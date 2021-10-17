@@ -1,0 +1,29 @@
+.headerBlock {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.headerBlock div {
+    display: flex;
+    flex-direction: column;
+}
+
+.cityName {
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.leftBlock {
+    position: relative;
+}
+
+.bottomText {
+    margin-top: 20px;
+    color: white;
+    opacity: 0.6;
+    cursor: pointer;
+}
